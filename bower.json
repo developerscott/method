@@ -24,7 +24,6 @@
         "es5-shim"                                     : "~3.4.0",
         "json3"                                        : "~3.3.1",
         "jquery"                                       : "~2.1.0",
-        "vn-bem"                                       : "~0.0.1",
         "vn-meta-tags"                                 : "~0.0.1"
     },
     "devDependencies": {

@@ -17,11 +17,11 @@ angular.module('volusionApp', [
     'ui.router',
     'seo',
     'services.config',
-    require('../bower_components/vn-bem').name,
     'ui.bootstrap',
     'snap',
     require('../bower_components/vn-meta-tags').name,
     'angulartics',
+
     // volusion modules
     'Volusion.controllers',
     'Volusion.decorators',
@@ -29,9 +29,7 @@ angular.module('volusionApp', [
     'Volusion.filters',
     'Volusion.services',
     'Volusion.google.tagmanager'
-]);
-
-angular.module('volusionApp')
+])
     .config(function (snapRemoteProvider, $stateProvider, $urlRouterProvider, $locationProvider, $windowProvider, translateProvider, config) {
 
         snapRemoteProvider.globalOptions.touchToDrag = false;
