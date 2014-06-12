@@ -11,7 +11,7 @@ describe('Service: apiProvider', function() {
     'update': {method: 'POST', headers: { 'foo': 'bar' } }
   };
 
-  beforeEach(module('pascalprecht.translate', 'volusion.services', function(_apiProvider_) {
+  beforeEach(module('pascalprecht.translate', 'Volusion.services', function(_apiProvider_) {
       apiProvider = _apiProvider_;
       apiProvider.setBaseRoute(baseRoutePath);
       apiProvider.endpoint('test', customActions)

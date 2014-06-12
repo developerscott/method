@@ -68,7 +68,7 @@ describe('Provider: translate', function () {
   });
 
   function config(options, callback) {
-    module('pascalprecht.translate', 'volusion.services', function(translateProvider) {
+    module('pascalprecht.translate', 'Volusion.services', function(translateProvider) {
       if (Object.keys(options).length) {
         localStorage.clear();
         translateProvider.configure(options);

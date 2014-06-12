@@ -1,6 +1,6 @@
 'use strict';
 
-describe('Service: volusion.google.tagmanager', function() {
+describe('Service: Volusion.google.tagmanager', function() {
 
   describe('config method', function() {
     it('registers the page track and event track methods of the analytics provider', function() {
@@ -55,7 +55,7 @@ describe('Service: volusion.google.tagmanager', function() {
   });
 
   function config(callback) {
-    module('volusion.google.tagmanager', function($analyticsProvider) {
+    module('Volusion.google.tagmanager', function($analyticsProvider) {
       if (typeof callback === 'function') {
         callback($analyticsProvider);
       }

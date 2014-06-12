@@ -2,7 +2,7 @@
 
 // ReSharper disable WrongExpressionStatement
 describe('Filter: cacheBust', function() {
-  beforeEach(module('volusion.filters', 'volusion.services'));
+  beforeEach(module('Volusion.filters', 'Volusion.services'));
 
   var cacheBustFilter, cacheBustingToken;
 

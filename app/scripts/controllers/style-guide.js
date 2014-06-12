@@ -1,5 +1,6 @@
-'use strict';
-
-angular.module('volusion.controllers').controller('StyleGuideCtrl', [
-  function() {}
-]);
+angular.module('Volusion.controllers')
+    .controller('StyleGuideCtrl', [
+        function () {
+            'use strict';
+        }
+    ]);

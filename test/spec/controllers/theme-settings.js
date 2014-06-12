@@ -3,7 +3,7 @@
 // ReSharper disable WrongExpressionStatement
 describe('Controller: ThemeSettingsCtrl', function () {
 
-  beforeEach(module('volusion.controllers'));
+  beforeEach(module('Volusion.controllers'));
 
   var controller;
   var scope;

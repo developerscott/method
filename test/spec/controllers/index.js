@@ -3,7 +3,7 @@
 // ReSharper disable WrongExpressionStatement
 describe('Controller: IndexCtrl', function() {
 
-  beforeEach(module('volusion.controllers', 'volusion.filters'));
+  beforeEach(module('Volusion.controllers', 'Volusion.filters'));
 
   var controller;
   var scope;

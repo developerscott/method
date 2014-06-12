@@ -3,7 +3,7 @@
 // ReSharper disable WrongExpressionStatement
 describe('Service: tokenGenerator', function() {
 
-  beforeEach(module('volusion.services'));
+  beforeEach(module('Volusion.services'));
 
   var tokenGenerator;
 

@@ -4,7 +4,7 @@
 describe('Controller: CategoryCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('volusion.controllers'));
+  beforeEach(module('Volusion.controllers'));
 
   // ReSharper disable once InconsistentNaming
   var controller;

@@ -1,10 +1,11 @@
-'use strict';
+angular.module('Volusion.services')
+    .factory('tokenGenerator', [function () {
+        'use strict';
 
-angular.module('volusion.services').factory('tokenGenerator', [function(){
-  return {
-    getCacheBustingToken: function() {
-      var cacheBustingToken = (new Date()).valueOf();
-      return { '_':  cacheBustingToken };
-    }
-  };
-}]);
+        return {
+            getCacheBustingToken: function () {
+                var cacheBustingToken = (new Date()).valueOf();
+                return { '_': cacheBustingToken };
+            }
+        };
+    }]);

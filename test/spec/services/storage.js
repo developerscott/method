@@ -3,7 +3,7 @@
 // ReSharper disable WrongExpressionStatement
 describe('Service: storage', function() {
 
-  beforeEach(module('pascalprecht.translate', 'volusion.services', 'ngCookies'));
+  beforeEach(module('pascalprecht.translate', 'Volusion.services', 'ngCookies'));
 
   var storage;
 

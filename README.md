@@ -65,7 +65,7 @@ Switched to branch 'my-theme'
 
 ## License
 
-TBD © [Volusion, Inc.](http://www.volusion.com/)
+TBD © [Volusion, Inc.](http://www.Volusion.com/)
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/volusion-angular/theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
@@ -75,5 +75,5 @@ TBD © [Volusion, Inc.](http://www.volusion.com/)
 [Dependency Status]: https://gemnasium.com/volusion-angular/theme.png
 [Views]: https://sourcegraph.com/api/repos/github.com/volusion-angular/theme/counters/views-24h.png
 [AngularJS]: http://angularjs.org/
-[Volusion]: http://www.volusion.com/
+[Volusion]: http://www.Volusion.com/
 [GitHub]: https://github.com/
