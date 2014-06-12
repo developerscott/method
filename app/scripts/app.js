@@ -188,6 +188,8 @@ angular.module('volusionApp')
         $rootScope.overridesCSS = cacheBustFilter('/styles/overrides.css');
     });
 
+
+// TODO : Ask what this is used for and if it is still needed
 $(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
