@@ -19,10 +19,11 @@ angular.module('volusionApp', [
     'services.config',
     'ui.bootstrap',
     'snap',
-    require('../bower_components/vn-meta-tags').name,
+//    require('../bower_components/vn-meta-tags').name,
     'angulartics',
 
     // volusion modules
+    'Volusion.toolboxCommon',
     'Volusion.controllers',
     'Volusion.decorators',
     'Volusion.directives',
